@@ -1,0 +1,19 @@
+uuid: 2c2449a2-74ca-4ba9-bcfb-196190363cf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.test_block
+    - field.storage.block_content.field_publisher
+id: block_content.test_block.field_publisher
+field_name: field_publisher
+entity_type: block_content
+bundle: test_block
+label: Publisher
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

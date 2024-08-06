@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.test_block
     - field.field.block_content.test_block.body
+    - field.field.block_content.test_block.field_publisher
   module:
     - text
 id: block_content.test_block.default
@@ -21,6 +22,14 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
+    third_party_settings: {  }
+  field_publisher:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   info:
     type: string_textfield
