@@ -1,0 +1,22 @@
+uuid: fda13a6f-eb47-4065-9c80-249b882dad4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.test_block
+    - field.field.block_content.test_block.body
+  module:
+    - text
+id: block_content.test_block.default
+targetEntityType: block_content
+bundle: test_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
