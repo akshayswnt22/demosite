@@ -1,0 +1,22 @@
+uuid: 7acdbafa-b0e9-4ec9-8890-9997cdf6aa6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by HCL'
+  label_display: visible
+  provider: system
+visibility: {  }

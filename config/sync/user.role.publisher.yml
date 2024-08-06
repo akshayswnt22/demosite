@@ -1,0 +1,9 @@
+uuid: dbcaa55a-ffa6-4147-877c-2e8f191cd158
+langcode: en
+status: true
+dependencies: {  }
+id: publisher
+label: Publisher
+weight: 4
+is_admin: null
+permissions: {  }

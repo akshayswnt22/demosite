@@ -1,0 +1,9 @@
+uuid: 4251280a-4f3f-47f4-a9cc-8d4247a166df
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of Article'
+vid: type_of_article
+description: null
+weight: 0
+new_revision: false

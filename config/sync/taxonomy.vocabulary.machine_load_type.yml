@@ -1,0 +1,9 @@
+uuid: 43cda7e9-6a7f-4fa3-8a3e-37e68f30306b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Machine Load Type'
+vid: machine_load_type
+description: null
+weight: 0
+new_revision: false

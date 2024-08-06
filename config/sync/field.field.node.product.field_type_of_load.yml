@@ -1,0 +1,29 @@
+uuid: bb4f087f-b0e7-43b3-8ff6-5811464e2b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_load
+    - node.type.product
+    - taxonomy.vocabulary.machine_load_type
+id: node.product.field_type_of_load
+field_name: field_type_of_load
+entity_type: node
+bundle: product
+label: 'Type of Load'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      machine_load_type: machine_load_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

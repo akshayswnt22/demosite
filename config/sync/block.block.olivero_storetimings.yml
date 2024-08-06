@@ -1,0 +1,30 @@
+uuid: 4c278a9a-2e50-41eb-bd57-605e0b5c678a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:70c3711e-cb4e-4e95-8b5d-4e4309874dba'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_storetimings
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:70c3711e-cb4e-4e95-8b5d-4e4309874dba'
+settings:
+  id: 'block_content:70c3711e-cb4e-4e95-8b5d-4e4309874dba'
+  label: 'Store timings'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
