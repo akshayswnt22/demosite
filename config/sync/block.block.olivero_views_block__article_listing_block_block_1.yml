@@ -1,0 +1,29 @@
+uuid: e890e51c-f9e4-4e1c-9d53-b3ce8ce355ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_listing_block
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__article_listing_block_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:article_listing_block-block_1'
+settings:
+  id: 'views_block:article_listing_block-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

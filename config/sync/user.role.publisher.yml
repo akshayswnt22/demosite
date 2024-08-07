@@ -1,9 +1,38 @@
 uuid: dbcaa55a-ffa6-4147-877c-2e8f191cd158
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.news
+    - workflows.workflow.editorial
+  module:
+    - block_content
+    - content_moderation
+    - field_ui
+    - node
+    - workflows
 id: publisher
 label: Publisher
 weight: 4
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access content overview'
+  - 'administer block_content display'
+  - 'administer workflows'
+  - 'create news content'
+  - 'delete any news content'
+  - 'delete news revisions'
+  - 'delete own news content'
+  - 'edit any news content'
+  - 'edit own news content'
+  - 'revert news revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view news revisions'
+  - 'view own unpublished content'
